@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+  width: 150px;
+  height: 150px;
+  background-color: #bbb;
+  margin-left: 50px;
+}
+
+.box1 {
+  margin: 0;
+}
+
+button {
+  border: none;
+  font-size: 29px;
+  background-color: rgb(149, 176, 176);
+  height: 90px;
+  width: 25%;
+  color: aliceblue;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:focus {
+  border: 2px solid blue;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.color {
+  background-color: rgb(255, 100, 80);
+}
